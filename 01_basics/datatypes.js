@@ -16,7 +16,7 @@ console.log(id === anotherId);
 
 
 
-const bigNumber = 1477897807731773817388n
+// const bigNumber = 1477897807731773817388n
 
 
 
@@ -33,3 +33,27 @@ let myObj = {
 const MyFunction = function(){
     console.log();
 }
+
+// console.log(typeof heros);
+
+//*********************************************/
+let MyComName = "deadpool-linux"
+
+let MyComName2 = MyComName
+MyComName2="Jordan-Linux"
+
+console.log(MyComName);
+console.log(MyComName2);
+
+let usr1 = {
+    email:"diiw@gmail.com",
+    upi:"hdwjnoo@gmail.com",
+};
+let usr2 = usr1
+let usr3 = usr2
+usr3.email = "dbuqnoun.commm"
+usr2.email = "abcd@google.vom"
+
+console.log(usr1.email);
+console.log(usr2.email);
+console.log(usr3.email);
